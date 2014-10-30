@@ -58,8 +58,14 @@ public class printFormat {
 					//--------------------------	
 						
 				}
+				//--------------------------
+				//increment the head down one in cell row
+				//--------------------------
 			}
 			counter+=ROWSIZE;
+			//--------------------------
+			//increment the head down one cell row
+			//--------------------------
 		} //end rows
 		
 		//for remainder in cL
@@ -113,6 +119,9 @@ public class printFormat {
 				//increment the head to the right
 				//--------------------------
 			}
+			//--------------------------
+			//increment the head down one in cell row
+			//--------------------------
 		}
 		
 	}
