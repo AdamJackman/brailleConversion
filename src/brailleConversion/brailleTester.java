@@ -22,6 +22,9 @@ public class brailleTester {
 			System.out.println(c1.get(i).getPos5());
 			System.out.println(c1.get(i).getPos6());
 			System.out.println("============================");
+			printFormat pF = new printFormat();
+			pF.printFormatted(c1);
+			
 		}
 	}
 

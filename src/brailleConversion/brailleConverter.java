@@ -5,6 +5,12 @@ import java.util.ArrayList;
 
 public class brailleConverter {	
 	
+	/**
+	 *  Converts a string into the braille cells associated to it
+	 * @param s - s is the string you want to convert
+	 * @return - returns an array list of cells
+	 */
+	
 	public ArrayList<Cell> convert(String s){
 		//create the cell list to populate
 		ArrayList<Cell> cellList = new ArrayList<Cell>();

@@ -4,7 +4,12 @@ public class Cell {
 	public boolean p1, p2, p3, p4, p5, p6;
 	
 	public Cell(){
-		p1 = false; p2 = false; p3 = false; p4 = false; p5 = false; p6 = false;
+		p1 = false; 
+		p2 = false; 
+		p3 = false; 
+		p4 = false; 
+		p5 = false; 
+		p6 = false;
 	}
 	
 	//set methods
