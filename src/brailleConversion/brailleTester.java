@@ -12,7 +12,7 @@ public class brailleTester {
 	public void test() {
 		ArrayList<Cell> c1 = new ArrayList<Cell>();
 		brailleConverter bC = new brailleConverter();
-		c1 = bC.convert("adam");
+		c1 = bC.convert("adam jackman");
 		for (int i=0; i < c1.size(); i++){
 			System.out.println("============================");
 			System.out.println(c1.get(i).getPos1());
