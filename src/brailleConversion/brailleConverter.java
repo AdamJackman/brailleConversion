@@ -16,6 +16,8 @@ public class brailleConverter {
 		ArrayList<Cell> cellList = new ArrayList<Cell>();
 		
 		//break the string into the words
+		//for now force to lower case
+		s.toLowerCase();
 		String [] words = s.split(" ");
 		
 		//for the words in 
