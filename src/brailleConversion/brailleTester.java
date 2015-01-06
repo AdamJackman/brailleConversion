@@ -1,7 +1,5 @@
 package brailleConversion;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 
 import org.junit.Test;
@@ -12,8 +10,8 @@ public class brailleTester {
 	public void test() {
 		ArrayList<Cell> c1 = new ArrayList<Cell>();
 		brailleConverter bC = new brailleConverter();
-		c1 = bC.convert("adam jackman");
-		for (int i=0; i < c1.size(); i++){
+		c1 = bC.convert("sam pourcyrous");
+/*		for (int i=0; i < c1.size(); i++){
 			System.out.println("============================");
 			System.out.println(c1.get(i).getPos1());
 			System.out.println(c1.get(i).getPos2());
@@ -22,7 +20,7 @@ public class brailleTester {
 			System.out.println(c1.get(i).getPos5());
 			System.out.println(c1.get(i).getPos6());
 			System.out.println("============================");
-		}
+		}*/
 		printFormat pF = new printFormat();
 		pF.printFormatted(c1);
 	}
